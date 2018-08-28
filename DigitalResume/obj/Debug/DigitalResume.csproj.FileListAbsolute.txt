@@ -175,7 +175,6 @@ A:\Desktop\DigitalResume\DigitalResume\bin\Microsoft.AI.DependencyCollector.xml
 A:\Desktop\DigitalResume\DigitalResume\bin\Microsoft.AI.WindowsServer.xml
 A:\Desktop\DigitalResume\DigitalResume\bin\Microsoft.AI.Web.xml
 A:\Desktop\DigitalResume\DigitalResume\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-A:\Desktop\DigitalResume\DigitalResume\obj\Debug\DigitalResume.csprojAssemblyReference.cache
 A:\Desktop\DigitalResume\DigitalResume\obj\Debug\DigitalResume.csproj.CoreCompileInputs.cache
 A:\Desktop\DigitalResume\DigitalResume\obj\Debug\DigitalResume.csproj.CopyComplete
 A:\Desktop\DigitalResume\DigitalResume\obj\Debug\DigitalResume.dll
