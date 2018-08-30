@@ -452,3 +452,4 @@ A:\Desktop\DigitalResume-master (2)\DigitalResume-master\DigitalResume\obj\Debug
 A:\Desktop\DigitalResume-master (2)\DigitalResume-master\DigitalResume\obj\Debug\DigitalResume.dll
 A:\Desktop\DigitalResume-master (2)\DigitalResume-master\DigitalResume\obj\Debug\DigitalResume.pdb
 A:\Desktop\DigitalResume-master (2)\DigitalResume-master\DigitalResume\obj\Debug\DigitalResume.csprojAssemblyReference.cache
+A:\Desktop\DigitalResume\DigitalResume\obj\Debug\DigitalResume.csprojAssemblyReference.cache
