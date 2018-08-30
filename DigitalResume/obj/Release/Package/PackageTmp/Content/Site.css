@@ -62,7 +62,7 @@ textarea {
     width: 750px;
     margin: 0 auto;
     font-size: 30px;
-    background: #8E8E8E;
+    background: #ccc;
     height: 700px;
     font-family: 'Monaco', 'Courier New';
     text-align: left;
@@ -83,17 +83,3 @@ textarea {
         margin: 0 auto;
         background: #383737;
     }
-
-.PreDosWindow {
-    color: white;
-    background: #383737;
-    border: 0px;
-}
-
-.panel {
-    overflow: auto;
-}
-
-.glyphicon-star {
-    padding-right: 5px;
-}
