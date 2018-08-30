@@ -1,57 +1,38 @@
 ﻿@{
     ViewBag.Title = "Parker's Resume";
 }
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('carousel-example-generic').carousel();
+
+    });
+
+
+
+
+</script>
+
+
+
+
+
+
+
 <body>
-
-
-    <div class="row">
-        @*<div class="col-lg-3">
-                <img src="~/Content/Images/TempImage.png"/>
-            </div>*@
-        <div class="col-xs-12">
-            <h2><b>Parker Mclain</b></h2>
-            <h3><b>Junior Software Engineer</b></h3>
-            <table class="table table-borderless">
-                <thead>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">Age</th>
-                        <td>24</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Email</th>
-                        <td>ParkerMclain94@gmail.com</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Phone</th>
-                        <td>(804)212-9895</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Education</th>
-                        <td>Virginia Commonwealth University - B.S. Computer Science (May 2019)</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Job</th>
-                        <td>United Parcel Service (UPS) - Software Engineering Intern</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Website</th>
-                        <td>www.parkermclain.com</td>
-                    </tr>
-                </tbody>
-            </table>
+    <div class="container">
+        <div class="row">
+            <p class="introduction1">Hello World, I'm</p>
+            <p class="myName">Parker Mclain</p>
+            <p class="introduction2">A Software Developer.</p>
         </div>
     </div>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <div class="DOS-Window">
-        <div class="DOS-Window-Header"> C:\ParkerMclain\System32\Define.txt</div>
-        <div class="DOS-WindowInside"><pre class="PreDosWindow">
+
+    <div class="container">
+        <div class="DOS-Window">
+            <div class="DOS-Window-Header"> C:\ParkerMclain\Information.java</div>
+            <div class="DOS-WindowInside">
+                <pre class="PreDosWindow">
 > Parker.location
     => "Richmond, Virginia"
 
@@ -86,73 +67,261 @@
     => [ "coding", "triathlon", "outdoors", "new technology" ]
 
         </pre>
-        </div>
-    </div>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-
-    <div class="text-center"><h3><b>My Adventure Thus Far</b></h3></div>
-
-    <div class="row">
-        <div class="col-xs-offset-2 col-xs-8">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                </div>
-                <div class="panel-body">
-                    <table class="table table-bordered table-responsive">
-                        <thead>
-                            <tr>
-                                <td>Skill</td>
-                                <td>Experience</td>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">Java</th>
-                                <td><p><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></p></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">C#</th>
-                                <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Javascript</th>
-                                <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">HTML</th>
-                                <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">CSS</th>
-                                <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">SQL</th>
-                                <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Visual Basic</th>
-                                <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Angular</th>
-                                <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">C/C++</th>
-                                <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                        </tfoot>
-                    </table>
-                </div>
             </div>
         </div>
     </div>
+
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+
+    <div class="container">
+        <div class="row">
+            <div class="miniHeader">My Adventure's Thus Far</div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="~/Content/Images/tempImage.jpg" class="img-responsive img-rounded clearfix adventureImg" />
+            </div>
+            <div class="col-sm-8">
+                <p><a href="https://www.ups.com/us/en/Home.page" target="_blank" class="adventureTitle">United Parcel Services</a></p>
+                <p class="adventureRole">Software Engineering Intern, Since May 2018</p>
+                <p class="adventureLocation">Richmond, VA</p>
+                <p>This is the text about UPS. This is the text about UPS. This is the text about UPS. This is the text about UPS. This is the text about UPS. This is the text about UPS. This is the text about UPS. This is the text about UPS. This is the text about UPS. This is the text about UPS. This is the text about UPS. This is the text about UPS. This is the text about UPS. This is the text about UPS. This is the text about UPS. This is the text about UPS. This is the text about UPS. This is the text about UPS. </p>
+            </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="~/Content/Images/tempImage.jpg" class="img-responsive img-rounded clearfix adventureImg" />
+            </div>
+            <div class="col-sm-8">
+                <p><a href="https://www.capitalone.com/" target="_blank" class="adventureTitle">Capital One</a></p>
+                <p class="adventureRole">Sr. Fraud Coordinator, September 2016 - March 2018</p>
+                <p class="adventureLocation">Richmond, VA</p>
+                <p>This is the text about Capital One. This is the text about Capital One.This is the text about Capital One.This is the text about Capital One.This is the text about Capital One.This is the text about Capital One.This is the text about Capital One.This is the text about Capital One.This is the text about Capital One.This is the text about Capital One.This is the text about Capital One.This is the text about Capital One.This is the text about Capital One.This is the text about Capital One.This is the text about Capital One.This is the text about Capital One.This is the text about Capital One.This is the text about Capital One.This is the text about Capital One.This is the text about Capital One.This is the text about Capital One.This is the text about Capital One.This is the text about Capital One.This is the text about Capital One.This is the text about Capital One.</p>
+            </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="~/Content/Images/tempImage.jpg" class="img-responsive img-rounded clearfix adventureImg" />
+            </div>
+            <div class="col-sm-8">
+                <p><a href="https://www.chick-fil-a.com/" target="_blank" class="adventureTitle">Chick-fil-a</a></p>
+                <p class="adventureRole">Team Leader, March 2011 - September 2016</p>
+                <p class="adventureLocation">Richmond, VA</p>
+                <p>This is the text about Chick-fil-a. This is the text about Chick-fil-a. This is the text about Chick-fil-a. This is the text about Chick-fil-a. This is the text about Chick-fil-a. This is the text about Chick-fil-a. This is the text about Chick-fil-a. This is the text about Chick-fil-a. This is the text about Chick-fil-a. This is the text about Chick-fil-a. This is the text about Chick-fil-a. This is the text about Chick-fil-a. This is the text about Chick-fil-a. This is the text about Chick-fil-a. This is the text about Chick-fil-a. This is the text about Chick-fil-a. This is the text about Chick-fil-a. This is the text about Chick-fil-a. This is the text about Chick-fil-a. This is the text about Chick-fil-a. This is the text about Chick-fil-a. This is the text about Chick-fil-a. This is the text about Chick-fil-a. This is the text about Chick-fil-a. This is the text about Chick-fil-a. </p>
+            </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="miniHeader">My Skills</div>
+            <br />
+            <br />
+            <br />
+            <div class="col-sm-4">
+                <div class="text-center">
+                    <p class="orangeText" style="padding-top:8px"><b>Dev Tools</b></p>
+                    <p>Visual Studio</p>
+                    <p>Eclipse</p>
+                    <p>Xcode</p>
+                    <p>Android Studio</p>
+                    <p>Sharepoint</p>
+                    <p>Textpad++ / Atom / Visual Studio Code</p>
+                    <p>Oracle / MySQL / SQLite</p>
+                </div>
+            </div>
+            <div class="col-sm-4 center-block variableBorder">
+                <table class="table table-borderless" @*style="border: double"*@>
+                    <thead>
+                        <tr>
+                            <td width="104px" style="text-align: right" class="orangeText"><b>Language</b></td>
+                            <td width="104px" class="orangeText" style="text-align: left"><b>Experience</b></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" style="text-align: right; font-weight: normal;">Java</th>
+                            <td><p><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></p></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" style="text-align: right; font-weight: normal">C#</th>
+                            <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" style="text-align: right; font-weight: normal">Javascript</th>
+                            <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" style="text-align: right; font-weight: normal">HTML</th>
+                            <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" style="text-align: right; font-weight: normal">CSS</th>
+                            <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" style="text-align: right; font-weight: normal">SQL</th>
+                            <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" style="text-align: right; font-weight: normal">Visual Basic</th>
+                            <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" style="text-align: right; font-weight: normal">Angular</th>
+                            <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" style="text-align: right; font-weight: normal">C/C++</th>
+                            <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="col-sm-4">
+                <div class="text-center">
+                    <p class="orangeText" style="padding-top:8px"><b>Other Goodies</b></p>
+                    <p>Bootstrap</p>
+                    <p>AJAX</p>
+                    <p>Firebase</p>
+                    <p>npm</p>
+                    <p>Node JS</p>
+                    <p>Git</p>
+                    <p>jQuery</p>
+                </div>
+            </div>
+
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+    </div>
+    <div class="container">
+        <div class="miniHeader">Let's Connect</div>
+        <br />
+        <br />
+        @*<form id="contact-form" method="post" role="form" class="center-block">
+                <div class="controls">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_name">Firstname *</label>
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_lastname">Lastname *</label>
+                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_email">Email *</label>
+                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_email">Subject *</label>
+                                <input id="form_subject" type="text" name="subject" class="form-control" placeholder="Please enter the subject *" required="required" data-error="Valid subject is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="form-group">
+                                <label for="form_message">Message *</label>
+                                <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <input type="submit" class="btn btn-success btn-send" value="Send message">
+                        </div>
+                    </div>
+                </div>
+
+            </form>*@
+        <form id="contact-form" method="post" role="form" class="center_div">
+            <div class="controls">
+                <div class="row">
+                    @*<div class="col-sm-4 col-sm-offset-4">*@
+                    <div class="form-group">
+                        <label for="form_name">Name <span style="color: red">*</span></label>
+                        <input id="form_name" autocomplete="off" type="text" name="name" class="form-control" placeholder="John Doe" required="required" data-error="Firstname is required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    @*</div>*@
+                </div>
+                <div class="row">
+                    @*<div class="col-sm-4 col-sm-offset-4">*@
+                    <div class="form-group">
+                        <label for="form_email">Email <span style="color: red">*</span></label>
+                        <input id="form_email" autocomplete="off" type="email" name="email" class="form-control" placeholder="John.Doe@gmail.com" required="required" data-error="Valid email is required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    @*</div>*@
+                </div>
+                <div class="row">
+                    @*<div class="col-sm-4 col-sm-offset-4">*@
+                    <div class="form-group">
+                        <label for="form_message">Message <span style="color: red">*</span></label>
+                        <textarea id="form_message" autocomplete="off" name="message" class="form-control" placeholder="Message ..." rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    @*</div>*@
+                    @*<div class="col-sm-4 col-sm-offset-4">*@
+
+                    @*</div>*@
+                </div>
+                <div class="row text-center">
+                    <input type="submit" class="btn btn-success btn-send" style="background-color: #8E8E8E; border-color: #ccc" value="Send message">
+                </div>
+            </div>
+        </form>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+
+
+
+
 </body>
