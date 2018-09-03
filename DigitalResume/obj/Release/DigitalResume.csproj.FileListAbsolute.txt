@@ -175,7 +175,6 @@ A:\Desktop\DigitalResume\DigitalResume\bin\Microsoft.AI.DependencyCollector.xml
 A:\Desktop\DigitalResume\DigitalResume\bin\Microsoft.AI.WindowsServer.xml
 A:\Desktop\DigitalResume\DigitalResume\bin\Microsoft.AI.Web.xml
 A:\Desktop\DigitalResume\DigitalResume\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-A:\Desktop\DigitalResume\DigitalResume\obj\Release\DigitalResume.csprojAssemblyReference.cache
 A:\Desktop\DigitalResume\DigitalResume\obj\Release\DigitalResume.csproj.CoreCompileInputs.cache
 A:\Desktop\DigitalResume\DigitalResume\obj\Release\DigitalResume.csproj.CopyComplete
 A:\Desktop\DigitalResume\DigitalResume\obj\Release\DigitalResume.dll
@@ -271,3 +270,4 @@ A:\Desktop\DigitalResume-master (2)\DigitalResume-master\DigitalResume\obj\Relea
 A:\Desktop\DigitalResume-master (2)\DigitalResume-master\DigitalResume\obj\Release\DigitalResume.csproj.CopyComplete
 A:\Desktop\DigitalResume-master (2)\DigitalResume-master\DigitalResume\obj\Release\DigitalResume.dll
 A:\Desktop\DigitalResume-master (2)\DigitalResume-master\DigitalResume\obj\Release\DigitalResume.pdb
+A:\Desktop\DigitalResume\DigitalResume\obj\Release\DigitalResume.csprojAssemblyReference.cache

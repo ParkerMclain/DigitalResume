@@ -69,6 +69,11 @@ textarea {
     font-size: 13px;
     color: #fafafa;
 }
+@media only screen and (max-width: 820px) {
+    .DOS-Window {
+        width: 100%;
+    }
+}
 
     .DOS-Window > .DOS-Window-Header {
         padding-top: 5px;
@@ -101,21 +106,6 @@ textarea {
 
 
 
-.miniHeader {
-    font-weight: 300;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-size: 25px;
-}.miniHeader::before, .miniHeader::after {
-        display: inline-block;
-        content: "";
-        border-top: 2px solid black;
-        width: 60px;
-        margin: 0 1rem;
-        transform: translateY(-.8rem);
-    }
 
 .adventureImg {
     margin: auto;
@@ -150,15 +140,16 @@ textarea {
     text-align: center;
 }
 
-.myName {
-    padding-bottom: 5px;
-    text-align: center;
-    font-size: 25px;
+
+.miniHeader {
     font-weight: 300;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 3px;
     text-transform: uppercase;
-} .myName::before, .myName::after {
+    font-size: 25px;
+    padding-bottom: 5px;
+}.miniHeader::before, .miniHeader::after {
         display: inline-block;
         content: "";
         border-top: 2px solid black;
@@ -166,6 +157,28 @@ textarea {
         margin: 0 1rem;
         transform: translateY(-.8rem);
     }
+@media only screen and (max-width: 575px) {
+    .miniHeader {
+        font-size: 15px;
+    }
+        .miniHeader::before, .miniHeader::after {
+            border-top: 1px solid black;
+            width: 20px;
+            transform: translateY(-.5rem);
+        }
+}
+@media only screen and (max-width: 372px) {
+    .miniHeader {
+        font-size: 12px;
+    }
+
+        .miniHeader::before, .miniHeader::after {
+            border-top: 1px solid black;
+            width: 15px;
+            transform: translateY(-.5rem);
+        }
+}
+
 
 .introduction2 {
     font-family: 'Montserrat', sans-serif;
@@ -201,5 +214,26 @@ textarea {
     width: 20% /* value of your choice which suits your alignment */
 }
 
+.contactForm {
+    padding: 20px;
+    background-color: #8E8E8E;
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 600px) {
+    .contactForm {
+        width: 100%;
+    }
+}
 
+.contactInput {
+    width: 100%;
+    max-width: none;
+}
+
+.contactTextarea {
+    width: 100%;
+    max-width: none;
+}
 
